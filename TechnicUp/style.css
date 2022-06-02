@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
+
+body{
+    background-color: #1A1034;
+    margin:0;
+}
+nav{
+    overflow: hidden;
+    background-color: #1A1034;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#nav_links{
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+nav a{
+    text-align: center;
+    padding: 30px 50px;
+    text-decoration: none;
+    float: left;
+    font-size: 30;
+    color: white;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+nav a:hover{
+    background-color: #EF4158;
+    color:white
+}
+header{
+    background-image: url("headerimg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 50%;
+}
+h1{
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: center;
+    font-size: 50;
+    color: white;
+}
+article{
+    height: 1080px;
+    margin-bottom: 5%;
+}
+.textone,.texttwo{
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: white;
+    padding-left:25% ;
+    padding-right: 25%;
+    margin-top: 100px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 40;
+}
+p{
+    font-size: 20;
+    padding: 5%;
+}
+input{
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 25;
+    padding: 10;
+    padding-left: 8%;
+    padding-right: 8%;
+    border-radius: 25px;
+    background-color: #EF4158 ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    border-width: 0.2;
+    border-color: grey;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #EF4158;
+}
+h3{
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: white;
+    padding: 65px 50px;
+}
+.logging{
+    background-image: url("headerimg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 82%;
+    padding-top: 12%;
+}
+.form_background{
+    height: 55%;
+    width: 35%;
+    background-color: #1A1034;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+form{
+    color:white;
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: center;
+    font-size: 32;
+    margin-top: 70px;
+}
+.lname, .fname{
+    margin-top: 30px;
+}
+.logbut{
+    margin-top: 60px;
+}
+.longer_article{
+    height: 1380px;
+    margin-bottom: 5%;
+}
+.icon{
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+
